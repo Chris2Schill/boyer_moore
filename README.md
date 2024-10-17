@@ -5,7 +5,7 @@
 ```C++
 #include <boyer_moore/boyer_moore.h>
 
-boyer_moore::Searchspace searchspace(ABCZZCBA);
+boyer_moore::Searchspace searchspace("ABCZZCBA");
 boyer_moore::Pattern pattern("ZZ");
 
 auto results = searchspace.search(pattern);
