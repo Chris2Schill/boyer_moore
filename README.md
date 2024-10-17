@@ -31,7 +31,7 @@ for (const auto& res : results) {
 
 ## How to Build
 ```bash
-git clone https://github.com/Chris2Schill/shared_mem.git
-cd shared_mem
+git clone https://github.com/Chris2Schill/boyer_moore.git
+cd boyer_moore
 ./build.sh
 ```
