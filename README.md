@@ -13,6 +13,7 @@ for (const auto& res : results) {
     int row = res.row; // 0
     int col = res.col; // 3
 }
+```
 
 ## Search a file
 ```C++
