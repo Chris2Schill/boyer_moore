@@ -1,6 +1,19 @@
 
 # Boyer Moore String Search Algorithm
 
+## Search a string
+```C++
+#include <boyer_moore/boyer_moore.h>
+
+boyer_moore::Searchspace searchspace(ABCZZCBA);
+boyer_moore::Pattern pattern("ZZ");
+
+auto results = searchspace.search(pattern);
+for (const auto& res : results) {
+    int row = res.row; // 0
+    int col = res.col; // 3
+}
+
 ## Search a file
 ```C++
 #include <boyer_moore/boyer_moore.h>
